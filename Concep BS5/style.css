@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navUl{
+    column-gap: 2rem;
+}
+.bg-grad{
+    background: linear-gradient(-30deg,#4D2EEC,#9E1AE2);
+}
+.bg-btn{
+    outline: 2px solid #4D2EEC;
+    background: linear-gradient(30deg,#4D2EEC,#9E1AE2);
+    transition: 1s;
+    column-gap: 1rem;
+}
+.bg-btn:hover{
+    outline: 2px solid #9E1AE2;
+    background: linear-gradient(-30deg,#4D2EEC,#9E1AE2);
+}
+.btn-transp{
+    background: transparent;
+    border: 2px solid white;
+    
+    color: #fff;
+    transition: 1s;
+}
+.btn-transp:hover{
+    background: white;
+    color: #000;
+    border: 2px solid white;
+}
+.text-blue{
+    color: #4D2EEC;
+}
+.text-violet{
+    color: #9E1AE2;
+}
+#download{
+    background-image: url(./resources/img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.295);
+    background-blend-mode: overlay;
+}
